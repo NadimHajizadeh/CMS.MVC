@@ -1,0 +1,56 @@
+﻿
+@using CMS.Entities
+@using CMS.Services.Complexs.Contract.Dto
+
+@model List<GetAllComplexesWithUnitCountDeataiDto>;
+@{
+
+    ViewData["Title"] = "صفحه اصلی";
+}
+
+
+
+<div style = "position: absolute; left: 10%; top: 10%;">
+    
+  <h3>مجتمع ها</h3>
+  <table class= "table table-dark">
+    <tr>
+        <th scope ="col">شماره ی مجتمع </th>
+        <th scope ="col">اسم مجتمع</th>
+        <th scope ="col"> تعداد واحد های ثبت شده</th>
+        <th scope ="col">تعداد واحد های باقی مانده</th>
+        <th scope ="col">بلوک های این مجتمع </th>
+        <th scope ="col">ثبت بلوک </th>
+ 
+    </tr>
+        @{
+            foreach(var complex in Model)
+            {
+                var complexId = new ComplexIdDto
+                {
+                    Id = complex.Id
+                };
+
+                <tr>
+                    <td scope="row" dir="rtl">@(complex.Id)</td>
+                    <td>@(complex.Name)</td>
+                    <td>@(complex.RegisterdUnitCount)</td>
+                    <td>@(complex.LeftUnitCount)</td>
+                    <td>
+                        <button class="btn btn-light btn-sm" type="button" onclick="location.href='@Url.Action("Edit", "Car", complexId)'">تغییر اطلاعات</button>
+                    </td>
+                    <td>
+                        <button class="btn btn-light btn-sm" type="button" onclick="location.href='@Url.Action("GetHistory", "Car", complexId)'">ثبت بلوک</button>
+                    </td>
+                    <td>
+                        <button class="btn btn-light btn-sm" type="button" onclick="location.href='@Url.Action("Charge", "Car", complexId)'">بلوک ها</button>
+                    </td>                  
+                    <td>
+                        <button class="btn btn-light btn-sm" type="button" onclick="location.href='@Url.Action("Charge", "Car", complexId)'">حذف مجتمع</button>
+                    </td>
+                </tr>
+            }
+         }
+
+  </table>
+</div>

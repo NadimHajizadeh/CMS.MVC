@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "53a1fea8-2f8c-4a54-95f5-11f4b6a3fa0e": {
+      "ProjectGuid": "53a1fea8-2f8c-4a54-95f5-11f4b6a3fa0e",
+      "DisplayName": "CMS.WepAplication",
+      "ColorIndex": 0
+    },
+    "2e3fa6e3-bfa9-41be-8c66-b339e91b059f": {
+      "ProjectGuid": "2e3fa6e3-bfa9-41be-8c66-b339e91b059f",
+      "DisplayName": "CMS.Migration",
+      "ColorIndex": 1
+    },
+    "1bc769dc-5619-4028-8c79-1df915fc671b": {
+      "ProjectGuid": "1bc769dc-5619-4028-8c79-1df915fc671b",
+      "DisplayName": "CMS.Entities",
+      "ColorIndex": 2
+    },
+    "796e8689-5943-4268-b3f1-6b8cf643d4fc": {
+      "ProjectGuid": "796e8689-5943-4268-b3f1-6b8cf643d4fc",
+      "DisplayName": "CMS.Services",
+      "ColorIndex": 3
+    },
+    "0e606429-e083-47a1-8512-bbe275fa9a06": {
+      "ProjectGuid": "0e606429-e083-47a1-8512-bbe275fa9a06",
+      "DisplayName": "CMS.Persistanse.EF",
+      "ColorIndex": 4
+    },
+    "8b2a28d4-d17c-43b4-ba59-5e46046aa008": {
+      "ProjectGuid": "8b2a28d4-d17c-43b4-ba59-5e46046aa008",
+      "DisplayName": "CMS.Persistanse.EF",
+      "ColorIndex": 5
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 6
+}

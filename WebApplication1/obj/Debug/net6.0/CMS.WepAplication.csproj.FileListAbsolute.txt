@@ -65,3 +65,13 @@ C:\Users\Nadim\source\repos\WebApplication1\WebApplication1\obj\Debug\net6.0\CMS
 C:\Users\Nadim\source\repos\WebApplication1\WebApplication1\obj\Debug\net6.0\ref\CMS.WepAplication.dll
 C:\Users\Nadim\source\repos\WebApplication1\WebApplication1\obj\Debug\net6.0\CMS.WepAplication.pdb
 C:\Users\Nadim\source\repos\WebApplication1\WebApplication1\obj\Debug\net6.0\CMS.WepAplication.genruntimeconfig.cache
+C:\Users\Nadim\RiderProjects\CMS.MVC\WebApplication1\obj\Debug\net6.0\CMS.WepAplication.csproj.AssemblyReference.cache
+C:\Users\Nadim\RiderProjects\CMS.MVC\WebApplication1\obj\Debug\net6.0\CMS.WepAplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nadim\RiderProjects\CMS.MVC\WebApplication1\obj\Debug\net6.0\CMS.WepAplication.AssemblyInfoInputs.cache
+C:\Users\Nadim\RiderProjects\CMS.MVC\WebApplication1\obj\Debug\net6.0\CMS.WepAplication.AssemblyInfo.cs
+C:\Users\Nadim\RiderProjects\CMS.MVC\WebApplication1\obj\Debug\net6.0\CMS.WepAplication.csproj.CoreCompileInputs.cache
+C:\Users\Nadim\RiderProjects\CMS.MVC\WebApplication1\obj\Debug\net6.0\CMS.WepAplication.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Nadim\RiderProjects\CMS.MVC\WebApplication1\obj\Debug\net6.0\CMS.WepAplication.RazorAssemblyInfo.cache
+C:\Users\Nadim\RiderProjects\CMS.MVC\WebApplication1\obj\Debug\net6.0\CMS.WepAplication.RazorAssemblyInfo.cs
+C:\Users\Nadim\RiderProjects\CMS.MVC\WebApplication1\obj\Debug\net6.0\CMS.WepAplication.dll
+C:\Users\Nadim\RiderProjects\CMS.MVC\WebApplication1\obj\Debug\net6.0\CMS.WepAplication.pdb

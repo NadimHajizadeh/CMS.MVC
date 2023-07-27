@@ -22,3 +22,15 @@ C:\Users\Nadim\RiderProjects\CMS.MVC\CMS.Entities\obj\Debug\net6.0\CMS.Entities.
 C:\Users\Nadim\RiderProjects\CMS.MVC\CMS.Entities\obj\Debug\net6.0\refint\CMS.Entities.dll
 C:\Users\Nadim\RiderProjects\CMS.MVC\CMS.Entities\obj\Debug\net6.0\CMS.Entities.pdb
 C:\Users\Nadim\RiderProjects\CMS.MVC\CMS.Entities\obj\Debug\net6.0\ref\CMS.Entities.dll
+C:\Users\a.p.y\Desktop\kelas\project\New folder\CMS.MVC\CMS.Entities\bin\Debug\net6.0\CMS.Entities.deps.json
+C:\Users\a.p.y\Desktop\kelas\project\New folder\CMS.MVC\CMS.Entities\bin\Debug\net6.0\CMS.Entities.dll
+C:\Users\a.p.y\Desktop\kelas\project\New folder\CMS.MVC\CMS.Entities\bin\Debug\net6.0\CMS.Entities.pdb
+C:\Users\a.p.y\Desktop\kelas\project\New folder\CMS.MVC\CMS.Entities\obj\Debug\net6.0\CMS.Entities.csproj.AssemblyReference.cache
+C:\Users\a.p.y\Desktop\kelas\project\New folder\CMS.MVC\CMS.Entities\obj\Debug\net6.0\CMS.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\a.p.y\Desktop\kelas\project\New folder\CMS.MVC\CMS.Entities\obj\Debug\net6.0\CMS.Entities.AssemblyInfoInputs.cache
+C:\Users\a.p.y\Desktop\kelas\project\New folder\CMS.MVC\CMS.Entities\obj\Debug\net6.0\CMS.Entities.AssemblyInfo.cs
+C:\Users\a.p.y\Desktop\kelas\project\New folder\CMS.MVC\CMS.Entities\obj\Debug\net6.0\CMS.Entities.csproj.CoreCompileInputs.cache
+C:\Users\a.p.y\Desktop\kelas\project\New folder\CMS.MVC\CMS.Entities\obj\Debug\net6.0\CMS.Entities.dll
+C:\Users\a.p.y\Desktop\kelas\project\New folder\CMS.MVC\CMS.Entities\obj\Debug\net6.0\refint\CMS.Entities.dll
+C:\Users\a.p.y\Desktop\kelas\project\New folder\CMS.MVC\CMS.Entities\obj\Debug\net6.0\CMS.Entities.pdb
+C:\Users\a.p.y\Desktop\kelas\project\New folder\CMS.MVC\CMS.Entities\obj\Debug\net6.0\ref\CMS.Entities.dll

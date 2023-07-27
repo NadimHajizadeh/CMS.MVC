@@ -58,9 +58,9 @@ public class UnitAppService : UnitService
         _unitOfWork.Complete();
     }
 
-    public List<GetAllDto> GettAll()
+    public List<GetAllDto> GettAllByBlockId(int id)
     {
         return
-            _unitRepository.GetAll();
+            _unitRepository.GettAllByBlockId(id);
     }
 }

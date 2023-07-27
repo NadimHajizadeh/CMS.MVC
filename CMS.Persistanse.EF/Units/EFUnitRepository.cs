@@ -7,14 +7,14 @@ namespace CMS.Persistanse.EF.Units
 {
     public class EFUnitRepository : UnitRepository
     {
-     
+
         private readonly DbSet<Unit> _units;
 
 
         public EFUnitRepository(EFDataContext context)
         {
-            
-            _units=context.Set<Unit>();
+
+            _units = context.Set<Unit>();
         }
 
         public void Add(Unit unit)
@@ -29,18 +29,15 @@ namespace CMS.Persistanse.EF.Units
 
         }
 
-        public List<GetAllDto> GetAll()
+        public List<GetAllDto> GettAllByBlockId(int id)
         {
             return
-                _units.Select(_ => new GetAllDto
-           {
-               Id = _.Id,
-               Name = _.Name,
-               blockId = _.BlockId,
-               BlockName = _.Block.Name,
-               ComplexId = _.Block.ComplexId,
-               ComplexName = _.Block.Complex.Name
-           }).ToList();
+                _units.Where(_ => _.BlockId == id).Select(_ => new GetAllDto
+                {
+                    Id = _.Id,
+                    Name = _.Name,
+                    residenseType = _.ResidenseType
+                }).ToList();
         }
 
         public int GetUnitsCountByBlockId(int blockId)

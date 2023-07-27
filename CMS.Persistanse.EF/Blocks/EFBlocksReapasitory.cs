@@ -1,6 +1,7 @@
 ﻿using CMS.Entities;
 using CMS.Services.Blocks.Contracts;
 using CMS.Services.Blocks.Contracts.Dto;
+using ComplexManagment.Services.Blocks.Contracts;
 using ComplexManagment.Services.Blocks.Contracts.Dto;
 using Microsoft.EntityFrameworkCore;
 
@@ -120,6 +121,19 @@ namespace CMS.Persistanse.EF.Blocks
             return
             _blocks.Where(_ => _.ComplexId == complexId)
                   .Select(_ => _.UnitCount).Sum();
+        }
+
+        public List<GetAllByComplexIDto> GetMajid(int id)
+        {
+          return
+                _blocks.Where(_=>_.ComplexId==id).Select(_=> new GetAllByComplexIDto
+                {
+                    
+                    Id= _.Id,
+                    Name= _.Name,
+                    UnitCount= _.UnitCount,
+                    RegisteredUnits = _.Units.Count(),
+                }).ToList();
         }
     }
 }

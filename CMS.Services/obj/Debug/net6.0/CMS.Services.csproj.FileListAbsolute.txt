@@ -28,3 +28,18 @@ C:\Users\Nadim\RiderProjects\CMS.MVC\CMS.Services\obj\Debug\net6.0\CMS.Services.
 C:\Users\Nadim\RiderProjects\CMS.MVC\CMS.Services\obj\Debug\net6.0\refint\CMS.Services.dll
 C:\Users\Nadim\RiderProjects\CMS.MVC\CMS.Services\obj\Debug\net6.0\CMS.Services.pdb
 C:\Users\Nadim\RiderProjects\CMS.MVC\CMS.Services\obj\Debug\net6.0\ref\CMS.Services.dll
+C:\Users\a.p.y\Desktop\kelas\project\New folder\CMS.MVC\CMS.Services\bin\Debug\net6.0\CMS.Services.deps.json
+C:\Users\a.p.y\Desktop\kelas\project\New folder\CMS.MVC\CMS.Services\bin\Debug\net6.0\CMS.Services.dll
+C:\Users\a.p.y\Desktop\kelas\project\New folder\CMS.MVC\CMS.Services\bin\Debug\net6.0\CMS.Services.pdb
+C:\Users\a.p.y\Desktop\kelas\project\New folder\CMS.MVC\CMS.Services\bin\Debug\net6.0\CMS.Entities.dll
+C:\Users\a.p.y\Desktop\kelas\project\New folder\CMS.MVC\CMS.Services\bin\Debug\net6.0\CMS.Entities.pdb
+C:\Users\a.p.y\Desktop\kelas\project\New folder\CMS.MVC\CMS.Services\obj\Debug\net6.0\CMS.Services.csproj.AssemblyReference.cache
+C:\Users\a.p.y\Desktop\kelas\project\New folder\CMS.MVC\CMS.Services\obj\Debug\net6.0\CMS.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\a.p.y\Desktop\kelas\project\New folder\CMS.MVC\CMS.Services\obj\Debug\net6.0\CMS.Services.AssemblyInfoInputs.cache
+C:\Users\a.p.y\Desktop\kelas\project\New folder\CMS.MVC\CMS.Services\obj\Debug\net6.0\CMS.Services.AssemblyInfo.cs
+C:\Users\a.p.y\Desktop\kelas\project\New folder\CMS.MVC\CMS.Services\obj\Debug\net6.0\CMS.Services.csproj.CoreCompileInputs.cache
+C:\Users\a.p.y\Desktop\kelas\project\New folder\CMS.MVC\CMS.Services\obj\Debug\net6.0\CMS.Services.csproj.CopyComplete
+C:\Users\a.p.y\Desktop\kelas\project\New folder\CMS.MVC\CMS.Services\obj\Debug\net6.0\CMS.Services.dll
+C:\Users\a.p.y\Desktop\kelas\project\New folder\CMS.MVC\CMS.Services\obj\Debug\net6.0\refint\CMS.Services.dll
+C:\Users\a.p.y\Desktop\kelas\project\New folder\CMS.MVC\CMS.Services\obj\Debug\net6.0\CMS.Services.pdb
+C:\Users\a.p.y\Desktop\kelas\project\New folder\CMS.MVC\CMS.Services\obj\Debug\net6.0\ref\CMS.Services.dll

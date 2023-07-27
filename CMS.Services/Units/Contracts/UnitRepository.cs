@@ -11,7 +11,7 @@ namespace CMS.Services.Units.Contracts
 
         void Add(Unit unit);
 
-        List<GetAllDto> GetAll();
+        List<GetAllDto> GettAllByBlockId(int blockId);
 
         bool UnitIsExistedByComplexId(int complexId);
     }

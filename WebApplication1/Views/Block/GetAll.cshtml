@@ -1,0 +1,52 @@
+﻿
+@using CMS.Entities
+@using CMS.Services.Complexs.Contract.Dto
+@using ComplexManagment.Services.Blocks.Contracts
+
+@model List<GetAllByComplexIDto>;
+@{
+
+    ViewData["Title"] = "واحد ها";
+}
+
+
+
+<div style = "position: absolute; left: 10%; top: 10%;">
+    
+  <h3>بلوک ها</h3>
+  <table class= "table table-dark">
+    <tr>
+        <th scope ="col">شماره بلوک </th>
+        <th scope ="col">اسم بلوک</th>
+        <th scope ="col">ضرفیت واحد</th>
+        <th scope ="col"> تعداد واحد های ثبت شده</th>
+        <th scope ="col">واحد ها</th>
+        <th scope ="col">ثبت واحد </th>
+ 
+    </tr>
+        @{
+            foreach(var block in Model)
+            {
+                var blockId = new BlockIdDto
+                {
+                    Id = block.Id
+                };
+
+                <tr>
+                    <td scope="row" dir="rtl">@(block.Id)</td>
+                    <td>@(block.Name)</td>
+                    <td>@(block.UnitCount)</td>
+                    <td>@(block.RegisteredUnits)</td>
+                    <td>
+                    <button class="btn btn-light btn-sm" type="button" onclick="location.href='@Url.Action("GetAll", "Unit", blockId)'">واحد ها</button>
+                    </td>
+                    <td>
+                    <button class="btn btn-light btn-sm" type="button" onclick="location.href='@Url.Action("Add", "Unit", blockId)'">ثبت واحد</button>
+                    </td>
+                   
+                </tr>
+            }
+         }
+
+  </table>
+</div>

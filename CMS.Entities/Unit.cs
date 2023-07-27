@@ -8,7 +8,7 @@ public class Unit
     public int BlockId { get; set; }
     public Block Block { get; set; } = null!;
 }
-public enum ResidenseType
+public enum ResidenseType : int
 {
     Empty = 0,
     Owner = 1,

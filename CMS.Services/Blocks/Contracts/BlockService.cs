@@ -11,4 +11,7 @@ public interface BlockService
     
     void UpdateById(int id ,UpdateBlockDto dto);
     public void AddWithUnits(AddBlockwithcUnitsDto dto );
+
+    public List<GetAllByComplexIDto> GetAll(int id);
+
 }

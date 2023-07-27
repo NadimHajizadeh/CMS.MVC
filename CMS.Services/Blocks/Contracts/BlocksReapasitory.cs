@@ -1,5 +1,6 @@
 ﻿using CMS.Entities;
 using CMS.Services.Blocks.Contracts.Dto;
+using ComplexManagment.Services.Blocks.Contracts;
 using ComplexManagment.Services.Blocks.Contracts.Dto;
 
 namespace CMS.Services.Blocks.Contracts
@@ -33,5 +34,6 @@ namespace CMS.Services.Blocks.Contracts
         int GetAllUnitCountOfBlocksByComplexId(int complexId);
 
         List<Block> GetAllAndSetUnitCountsToZeroByComplexId(int id);
+        List<GetAllByComplexIDto> GetMajid(int id);
     }
 }

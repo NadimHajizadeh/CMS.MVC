@@ -1,7 +1,7 @@
 ﻿using FluentMigrator;
 
 namespace CMS.Migration.Migrations;
-[Migration(202307131255)]
+[Migration(2)]
 public class _202307131255_AddedBlockTable : FluentMigrator.Migration 
 {
     public override void Up()

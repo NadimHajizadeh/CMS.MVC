@@ -6,5 +6,5 @@ namespace ComplexManagment.Services.Units.Contracts;
 public interface UnitService
 {
     public void Add(AddUnitDto dto);
-    public List<GetAllDto> GettAll();//todo
+    public List<GetAllDto> GettAllByBlockId(int blockId);//todo
 }

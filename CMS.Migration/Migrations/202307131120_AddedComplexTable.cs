@@ -1,7 +1,7 @@
 ﻿using FluentMigrator;
 
 namespace CMS.Migration.Migrations;
-[Migration(202307131120)]
+[Migration(1)]
 public class _202307131120_AddedComplexTable : FluentMigrator.Migration
 {
     

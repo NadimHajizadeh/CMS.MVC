@@ -1,0 +1,22 @@
+﻿@using CMS.Entities
+@{
+    ViewData["Title"] = "بلوک جدید";
+}
+@model ComplexIdDto
+<br />
+<form style = "position:absolute; left:40%; top:10%;" id="qwe" action="@Url.Action("AddUnit", "Unit")" method="post">
+    <table >
+        <input type="hidden" id="ComplexId" name="ComplexId" value="@Model.Id">
+        <tr>
+            <td>نام بلوک</td>
+            <td><input  type="text" dir="rtl" name="Name" placeholder = "نام" required/></td>
+        </tr>
+        <tr>
+            <td>تعداد واحد بلوک</td>
+            <td><input type="number" min = "1" step = "10" dir="rtl" name="UnitCount" placeholder = "100" required/></td>
+        </tr>
+        <tr>
+            <td colspan="2"><button class="bg-dark text-light" type="submit" form="qwe" value="ثبت بلوک">ثبت بلوک</button></td>
+        </tr>
+    </table>
+</form>

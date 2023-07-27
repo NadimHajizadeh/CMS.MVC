@@ -185,4 +185,10 @@ public class BlockAppService : BlockService
             throw new BlockAlredyExistedInThisComplexException();
         }
     }
+
+    public List<GetAllByComplexIDto> GetAll(int id)
+    {
+        return
+             _blockRepository.GetMajid(id);
+    }
 }

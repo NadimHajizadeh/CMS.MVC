@@ -1,0 +1,26 @@
+﻿@using CMS.Entities
+@{
+    ViewData["Title"] = "واحد جدید";
+}
+@model ComplexIdDto
+<br />
+<form style = "position:absolute; left:40%; top:10%;" id="qwe" action="@Url.Action("AddUnit", "Unit")" method="post">
+    <table >
+        <input type="hidden" id="BlockId" name="BlockId" value="@Model.Id">
+        <tr>
+            <td>نام واحد</td>
+            <td><input  type="text" dir="rtl" name="Name" placeholder = "نام" required/></td>
+        </tr>
+        <tr>
+            <label for="ResidenseType">وضعیت اسکان:</label>
+            <select id="ResidenseType" name="ResidenseType">
+            <option value="0">خالی</option>
+            <option value="1">مالک</option>
+            <option value="2">مستاجر</option>
+            </select>
+        </tr>
+        <tr>
+            <td colspan="2"><button class="bg-dark text-light" type="submit" form="qwe" value="ثبت واحد">ثبت واحد</button></td>
+        </tr>
+    </table>
+</form>

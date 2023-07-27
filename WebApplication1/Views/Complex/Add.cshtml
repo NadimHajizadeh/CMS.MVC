@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["Title"] = "مجتمع جدید";
+}
+
+<br />
+<form style = "position:absolute; left:40%; top:10%;" id="AddComplex" action="AddComplex" method="post">
+    <table >
+        <tr>
+            <td>نام مجتمع</td>
+            <td><input  type="text" dir="rtl" name="Name" placeholder = "نام" required/></td>
+        </tr>
+        <tr>
+            <td>تعداد واحد مجتمع</td>
+            <td><input type="number" min = "1" step = "10" dir="rtl" name="UnitCount" placeholder = "100" required/></td>
+        </tr>
+        <tr>
+            <td colspan="2"><button class="bg-dark text-light" type="submit" form="AddComplex" value="ثبت مجتمع">ثبت مجتمع</button></td>
+        </tr>
+    </table>
+</form>

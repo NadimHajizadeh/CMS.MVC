@@ -1,7 +1,7 @@
 ﻿using FluentMigrator;
 
 namespace CMS.Migration.Migrations;
-[Migration(202307131359)]
+[Migration(4)]
 public class _202307131359_AddedUsageTypeAndComplexUsageTypeTable : FluentMigrator.Migration
 {
     public override void Up()

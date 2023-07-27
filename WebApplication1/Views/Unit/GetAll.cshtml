@@ -1,0 +1,54 @@
+﻿
+@using CMS.Entities
+@using CMS.Services.Complexs.Contract.Dto
+@using ComplexManagment.Services.Blocks.Contracts
+@using ComplexManagment.Services.Units.Contracts.Dto
+
+@model List<GetAllDto>;
+@{
+
+    ViewData["Title"] = "واحد ها";
+}
+
+
+
+<div style = "position: absolute; left: 10%; top: 10%;">
+    
+  <h3>بلوک ها</h3>
+  <table class= "table table-dark">
+    <tr>
+        <th scope ="col">شماره واحد </th>
+        <th scope ="col">اسم واحد</th>
+        <th scope ="col">نوع کاربری واحد</th>
+ 
+    </tr>
+        @{
+            foreach(var unit in Model)
+            {
+                var blockId = new BlockIdDto
+                {
+                    Id = unit.Id
+                };
+
+                <tr>
+                    <td scope="row" dir="rtl">@(unit.Id)</td>
+                    <td>@(unit.Name)</td>
+                    @if (unit.residenseType == ResidenseType.Empty)
+                    {
+                        <td>خالی</td>
+                    }
+                    else if (unit.residenseType == ResidenseType.Owner)
+                    {
+                        <td>مالک</td>
+                    }
+                    else if (unit.residenseType == ResidenseType.Tenant)
+                    {
+                        <td>مستاجر</td>
+                    }
+
+                </tr>
+            }
+         }
+
+  </table>
+</div>

@@ -24,6 +24,11 @@ namespace CMS.WepAplication.Controllers
         {
             return View(dto);
         }
+        public IActionResult Delete(BlockIdDto dto)
+        {
+            service.Delete(dto.Id);
+            return View();
+        }
         
         public IActionResult AddUnit(AddUnitDto dto)
         {

@@ -7,4 +7,7 @@ public interface UnitService
 {
     public void Add(AddUnitDto dto);
     public List<GetAllDto> GettAllByBlockId(int blockId);//todo
+    
+    public void Delete(int id);
+    
 }

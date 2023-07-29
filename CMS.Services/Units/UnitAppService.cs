@@ -1,5 +1,6 @@
 ﻿using CMS.Entities;
 using CMS.Services.Blocks.Contracts;
+using CMS.Services.Complexs.Exeptions;
 using CMS.Services.Contracts;
 using CMS.Services.Units.Contracts;
 using CMS.Services.Units.Contracts.Dto;
@@ -62,5 +63,12 @@ public class UnitAppService : UnitService
     {
         return
             _unitRepository.GettAllByBlockId(id);
+    }
+
+    public void Delete(int id)
+    {
+        var a = _unitRepository.findBuID(id);
+        _unitRepository.delete(a);
+        _unitOfWork.Complete();
     }
 }

@@ -51,5 +51,16 @@ namespace CMS.Persistanse.EF.Units
             return
                 _units.Any(_ => _.Block.ComplexId == complexId);
         }
+
+        public Unit findBuID(int id)
+        {
+            return
+                _units.Find(id);
+        }
+
+        public void delete(Unit unit)
+        {
+            _units.Remove(unit);
+        }
     }
 }

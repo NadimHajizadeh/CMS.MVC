@@ -97,7 +97,7 @@ namespace CMS.Persistanse.EF.Blocks
         public Block? FindById(int id)
         {
             return
-                 _blocks.FirstOrDefault(_ => _.Id == id);
+                 _blocks.Include(_=>_.Units).FirstOrDefault(_ => _.Id == id);
         }
         public List<Block> GetAllAndSetUnitCountsToZeroByComplexId(int id)
         {
@@ -134,6 +134,12 @@ namespace CMS.Persistanse.EF.Blocks
                     UnitCount= _.UnitCount,
                     RegisteredUnits = _.Units.Count(),
                 }).ToList();
+        }
+
+        public void Delete(Block block)
+        {
+            _blocks.Remove(block);
+            
         }
     }
 }

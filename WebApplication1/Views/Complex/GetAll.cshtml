@@ -21,6 +21,7 @@
         <th scope ="col">تعداد واحد های باقی مانده</th>
         <th scope ="col">بلوک های این مجتمع </th>
         <th scope ="col">ثبت بلوک </th>
+        <th scope ="col"> delet </th>
  
     </tr>
         @{
@@ -40,8 +41,12 @@
                     <button class="btn btn-light btn-sm" type="button" onclick="location.href='@Url.Action("GetAll", "Block", complexId)'">بلوک ها</button>
                     </td>
                     <td>
-                    <button class="btn btn-light btn-sm" type="button" onclick="location.href='@Url.Action("AddBlock", "Block", complexId)'">ثبت بلوک</button>
+                        <button class="btn btn-light btn-sm" type="button" onclick="location.href='@Url.Action("AddBlock", "Block", complexId)'">ثبت بلوک</button>
                     </td>
+                    <td>
+                        <button class="btn btn-light btn-sm" type="button" onclick="location.href='@Url.Action("delete", "Complex", complexId)'">delet</button>
+                    </td>
+                    
                 </tr>
             }
          }

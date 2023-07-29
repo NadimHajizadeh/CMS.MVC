@@ -186,7 +186,7 @@ public class BlockAppService : BlockService
         }
     }
 
-    public List<GetAllByComplexIDto> GetAll(int id)
+    public List<GetAllByComplexIDto> GetAll2(int id)
     {
         return
              _blockRepository.GetMajid(id);

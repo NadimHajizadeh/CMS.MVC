@@ -1,21 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\a.p.y\\Desktop\\kelas\\project\\New folder\\CMS.MVC\\CMS.Entities\\CMS.Entities.csproj": {}
+    "C:\\Users\\Nadim\\RiderProjects\\CMS.MVC\\CMS.Entities\\CMS.Entities.csproj": {}
   },
   "projects": {
-    "C:\\Users\\a.p.y\\Desktop\\kelas\\project\\New folder\\CMS.MVC\\CMS.Entities\\CMS.Entities.csproj": {
+    "C:\\Users\\Nadim\\RiderProjects\\CMS.MVC\\CMS.Entities\\CMS.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\a.p.y\\Desktop\\kelas\\project\\New folder\\CMS.MVC\\CMS.Entities\\CMS.Entities.csproj",
+        "projectUniqueName": "C:\\Users\\Nadim\\RiderProjects\\CMS.MVC\\CMS.Entities\\CMS.Entities.csproj",
         "projectName": "CMS.Entities",
-        "projectPath": "C:\\Users\\a.p.y\\Desktop\\kelas\\project\\New folder\\CMS.MVC\\CMS.Entities\\CMS.Entities.csproj",
-        "packagesPath": "C:\\Users\\a.p.y\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\a.p.y\\Desktop\\kelas\\project\\New folder\\CMS.MVC\\CMS.Entities\\obj\\",
+        "projectPath": "C:\\Users\\Nadim\\RiderProjects\\CMS.MVC\\CMS.Entities\\CMS.Entities.csproj",
+        "packagesPath": "C:\\Users\\Nadim\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nadim\\RiderProjects\\CMS.MVC\\CMS.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\a.p.y\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Nadim\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -44,16 +43,31 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.18, 6.0.18]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.18, 6.0.18]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.18, 6.0.18]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\Nadim\\.dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -85,8 +85,9 @@ public class EFComplexRepasitory : ComplexRepasitory
 
     public Complex? FindById(int id)
     {
-        return
-            _complexes.FirstOrDefault(_ => _.Id == id);
+        var a =
+            _complexes.Include(_ => _.Blocks).FirstOrDefault(_ => _.Id == id);
+        return a;
     }
 
     public void Update(Complex complex)

@@ -17,14 +17,14 @@ namespace CMS.WepAplication.Controllers
 
         public IActionResult GetAll(ComplexIdDto dto)
         {
-            return View(service.GetAll(dto.Id));
+            return View(service.GetAll2(dto.Id));
         }
         
         public IActionResult Add(AddBlockDto dto)
         {
             service.Add(dto);
             var complextIdDto = new ComplexIdDto { Id = dto.ComplexID };
-            return View("GetAll", GetAll(complextIdDto));
+            return View("GetAll", service.GetAll2(dto.ComplexID));
         }
         
         public IActionResult AddBlock(ComplexIdDto dto)

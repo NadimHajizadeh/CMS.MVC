@@ -1,4 +1,5 @@
-﻿using CMS.Services.Complexs.Contract;
+﻿using CMS.Entities;
+using CMS.Services.Complexs.Contract;
 using CMS.Services.Complexs.Contract.Dto;
 using Microsoft.AspNetCore.Mvc;
 
@@ -19,6 +20,13 @@ namespace CMS.WepAplication.Controllers
             return View(service.GetAllComplexesWithUnitCountDeatail());
         }
 
+        public IActionResult delete(ComplexIdDto dto)
+        {
+            
+            service.Delete(dto.Id);
+            return View("GetAll", service
+                .GetAllComplexesWithUnitCountDeatail());
+        }
         public IActionResult Add()
         {
             return View();

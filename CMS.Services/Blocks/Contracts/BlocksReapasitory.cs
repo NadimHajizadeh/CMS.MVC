@@ -35,5 +35,6 @@ namespace CMS.Services.Blocks.Contracts
 
         List<Block> GetAllAndSetUnitCountsToZeroByComplexId(int id);
         List<GetAllByComplexIDto> GetMajid(int id);
+        void Delete(Block block);
     }
 }

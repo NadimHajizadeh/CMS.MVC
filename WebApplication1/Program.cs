@@ -24,7 +24,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<EFDataContext>(_ =>
-    _.UseSqlServer("Server=.;Database=CMSDATABASEEEEEEEEEEEEEEE12;Trusted_Connection=True;"));
+    _.UseSqlServer("Server=.;Database=majidmajid;Trusted_Connection=True;"));
 
 builder.Services.AddScoped<UnitOfWork, EFUnitOfWork>();
 builder.Services.AddScoped<ComplexService, ComplexAppService>();

@@ -97,8 +97,12 @@ public class ComplexAppService : ComplexService
     {
         var complex = _repasitory.FindById(id);
         StopIfComplexNotFound(complex);
+        if (complex.Blocks.Count!=0)
+        {
+            throw new ComplexHasBlockException();
+        }
         
-        _repasitory.Delete(complex!);
+        _repasitory.Delete(complex);
         _unitOfWork.Complete();
     }
     
@@ -110,4 +114,8 @@ public class ComplexAppService : ComplexService
         }
     }
 
+}
+
+public class ComplexHasBlockException : Exception
+{
 }

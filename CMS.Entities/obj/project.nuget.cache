@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "UWGemgpCHXsQ+lIoCLsoz+wvFEzPyrm2FmgTREMqfAfTC66crm0mzH+AvEyHiGoIIjkEAWI8i6Qxv6KrtVu80A==",
+  "dgSpecHash": "uKoTnujZR4wXrxc6UdWIwI6g/2vWIfoqwrfP8i6E9RBmUaTMF0ZXCXt7IhD3XDmp3HmD6ZoCV71aILv0nr5sZA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\a.p.y\\Desktop\\kelas\\project\\New folder\\CMS.MVC\\CMS.Entities\\CMS.Entities.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Nadim\\RiderProjects\\CMS.MVC\\CMS.Entities\\CMS.Entities.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Nadim\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.18\\microsoft.netcore.app.ref.6.0.18.nupkg.sha512",
+    "C:\\Users\\Nadim\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.18\\microsoft.windowsdesktop.app.ref.6.0.18.nupkg.sha512",
+    "C:\\Users\\Nadim\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.18\\microsoft.aspnetcore.app.ref.6.0.18.nupkg.sha512"
+  ],
   "logs": []
 }

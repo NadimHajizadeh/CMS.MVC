@@ -1,21 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\a.p.y\\Desktop\\kelas\\project\\New folder\\CMS.MVC\\WebApplication1\\CMS.WepAplication.csproj": {}
+    "C:\\Users\\Nadim\\RiderProjects\\CMS.MVC\\WebApplication1\\CMS.WepAplication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\a.p.y\\Desktop\\kelas\\project\\New folder\\CMS.MVC\\CMS.Entities\\CMS.Entities.csproj": {
+    "C:\\Users\\Nadim\\RiderProjects\\CMS.MVC\\CMS.Entities\\CMS.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\a.p.y\\Desktop\\kelas\\project\\New folder\\CMS.MVC\\CMS.Entities\\CMS.Entities.csproj",
+        "projectUniqueName": "C:\\Users\\Nadim\\RiderProjects\\CMS.MVC\\CMS.Entities\\CMS.Entities.csproj",
         "projectName": "CMS.Entities",
-        "projectPath": "C:\\Users\\a.p.y\\Desktop\\kelas\\project\\New folder\\CMS.MVC\\CMS.Entities\\CMS.Entities.csproj",
-        "packagesPath": "C:\\Users\\a.p.y\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\a.p.y\\Desktop\\kelas\\project\\New folder\\CMS.MVC\\CMS.Entities\\obj\\",
+        "projectPath": "C:\\Users\\Nadim\\RiderProjects\\CMS.MVC\\CMS.Entities\\CMS.Entities.csproj",
+        "packagesPath": "C:\\Users\\Nadim\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nadim\\RiderProjects\\CMS.MVC\\CMS.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\a.p.y\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Nadim\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -44,31 +43,45 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.18, 6.0.18]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.18, 6.0.18]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.18, 6.0.18]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\Nadim\\.dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\a.p.y\\Desktop\\kelas\\project\\New folder\\CMS.MVC\\CMS.Persistanse.EF\\CMS.Persistanse.EF.csproj": {
+    "C:\\Users\\Nadim\\RiderProjects\\CMS.MVC\\CMS.Persistanse.EF\\CMS.Persistanse.EF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\a.p.y\\Desktop\\kelas\\project\\New folder\\CMS.MVC\\CMS.Persistanse.EF\\CMS.Persistanse.EF.csproj",
+        "projectUniqueName": "C:\\Users\\Nadim\\RiderProjects\\CMS.MVC\\CMS.Persistanse.EF\\CMS.Persistanse.EF.csproj",
         "projectName": "CMS.Persistanse.EF",
-        "projectPath": "C:\\Users\\a.p.y\\Desktop\\kelas\\project\\New folder\\CMS.MVC\\CMS.Persistanse.EF\\CMS.Persistanse.EF.csproj",
-        "packagesPath": "C:\\Users\\a.p.y\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\a.p.y\\Desktop\\kelas\\project\\New folder\\CMS.MVC\\CMS.Persistanse.EF\\obj\\",
+        "projectPath": "C:\\Users\\Nadim\\RiderProjects\\CMS.MVC\\CMS.Persistanse.EF\\CMS.Persistanse.EF.csproj",
+        "packagesPath": "C:\\Users\\Nadim\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nadim\\RiderProjects\\CMS.MVC\\CMS.Persistanse.EF\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\a.p.y\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Nadim\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -80,8 +93,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\a.p.y\\Desktop\\kelas\\project\\New folder\\CMS.MVC\\CMS.Services\\CMS.Services.csproj": {
-                "projectPath": "C:\\Users\\a.p.y\\Desktop\\kelas\\project\\New folder\\CMS.MVC\\CMS.Services\\CMS.Services.csproj"
+              "C:\\Users\\Nadim\\RiderProjects\\CMS.MVC\\CMS.Services\\CMS.Services.csproj": {
+                "projectPath": "C:\\Users\\Nadim\\RiderProjects\\CMS.MVC\\CMS.Services\\CMS.Services.csproj"
               }
             }
           }
@@ -121,31 +134,45 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.18, 6.0.18]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.18, 6.0.18]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.18, 6.0.18]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\Nadim\\.dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\a.p.y\\Desktop\\kelas\\project\\New folder\\CMS.MVC\\CMS.Services\\CMS.Services.csproj": {
+    "C:\\Users\\Nadim\\RiderProjects\\CMS.MVC\\CMS.Services\\CMS.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\a.p.y\\Desktop\\kelas\\project\\New folder\\CMS.MVC\\CMS.Services\\CMS.Services.csproj",
+        "projectUniqueName": "C:\\Users\\Nadim\\RiderProjects\\CMS.MVC\\CMS.Services\\CMS.Services.csproj",
         "projectName": "CMS.Services",
-        "projectPath": "C:\\Users\\a.p.y\\Desktop\\kelas\\project\\New folder\\CMS.MVC\\CMS.Services\\CMS.Services.csproj",
-        "packagesPath": "C:\\Users\\a.p.y\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\a.p.y\\Desktop\\kelas\\project\\New folder\\CMS.MVC\\CMS.Services\\obj\\",
+        "projectPath": "C:\\Users\\Nadim\\RiderProjects\\CMS.MVC\\CMS.Services\\CMS.Services.csproj",
+        "packagesPath": "C:\\Users\\Nadim\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nadim\\RiderProjects\\CMS.MVC\\CMS.Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\a.p.y\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Nadim\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -157,8 +184,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\a.p.y\\Desktop\\kelas\\project\\New folder\\CMS.MVC\\CMS.Entities\\CMS.Entities.csproj": {
-                "projectPath": "C:\\Users\\a.p.y\\Desktop\\kelas\\project\\New folder\\CMS.MVC\\CMS.Entities\\CMS.Entities.csproj"
+              "C:\\Users\\Nadim\\RiderProjects\\CMS.MVC\\CMS.Entities\\CMS.Entities.csproj": {
+                "projectPath": "C:\\Users\\Nadim\\RiderProjects\\CMS.MVC\\CMS.Entities\\CMS.Entities.csproj"
               }
             }
           }
@@ -178,44 +205,59 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.18, 6.0.18]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.18, 6.0.18]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.18, 6.0.18]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\Nadim\\.dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\a.p.y\\Desktop\\kelas\\project\\New folder\\CMS.MVC\\WebApplication1\\CMS.WepAplication.csproj": {
+    "C:\\Users\\Nadim\\RiderProjects\\CMS.MVC\\WebApplication1\\CMS.WepAplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\a.p.y\\Desktop\\kelas\\project\\New folder\\CMS.MVC\\WebApplication1\\CMS.WepAplication.csproj",
+        "projectUniqueName": "C:\\Users\\Nadim\\RiderProjects\\CMS.MVC\\WebApplication1\\CMS.WepAplication.csproj",
         "projectName": "CMS.WepAplication",
-        "projectPath": "C:\\Users\\a.p.y\\Desktop\\kelas\\project\\New folder\\CMS.MVC\\WebApplication1\\CMS.WepAplication.csproj",
-        "packagesPath": "C:\\Users\\a.p.y\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\a.p.y\\Desktop\\kelas\\project\\New folder\\CMS.MVC\\WebApplication1\\obj\\",
+        "projectPath": "C:\\Users\\Nadim\\RiderProjects\\CMS.MVC\\WebApplication1\\CMS.WepAplication.csproj",
+        "packagesPath": "C:\\Users\\Nadim\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nadim\\RiderProjects\\CMS.MVC\\WebApplication1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\a.p.y\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Nadim\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Users\\Nadim\\.dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\a.p.y\\Desktop\\kelas\\project\\New folder\\CMS.MVC\\CMS.Persistanse.EF\\CMS.Persistanse.EF.csproj": {
-                "projectPath": "C:\\Users\\a.p.y\\Desktop\\kelas\\project\\New folder\\CMS.MVC\\CMS.Persistanse.EF\\CMS.Persistanse.EF.csproj"
+              "C:\\Users\\Nadim\\RiderProjects\\CMS.MVC\\CMS.Persistanse.EF\\CMS.Persistanse.EF.csproj": {
+                "projectPath": "C:\\Users\\Nadim\\RiderProjects\\CMS.MVC\\CMS.Persistanse.EF\\CMS.Persistanse.EF.csproj"
               }
             }
           }
@@ -235,10 +277,29 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.18, 6.0.18]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.18, 6.0.18]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.18, 6.0.18]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.18, 6.0.18]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -247,7 +308,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\Nadim\\.dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     }

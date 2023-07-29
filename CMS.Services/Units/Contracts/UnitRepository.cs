@@ -14,5 +14,7 @@ namespace CMS.Services.Units.Contracts
         List<GetAllDto> GettAllByBlockId(int blockId);
 
         bool UnitIsExistedByComplexId(int complexId);
+        Unit findBuID(int id );
+        void delete(Unit unit);
     }
 }

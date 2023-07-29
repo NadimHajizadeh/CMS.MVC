@@ -1,10 +1,12 @@
 ﻿@using CMS.Entities
 @{
     ViewData["Title"] = "بلوک جدید";
+    //@Url.Action("AddUnit", "Unit"
 }
 @model ComplexIdDto
+
 <br />
-<form style = "position:absolute; left:40%; top:10%;" id="qwe" action="@Url.Action("AddUnit", "Unit")" method="post">
+<form style = "position:absolute; left:40%; top:10%;" id="qwe" action="@Url.Action("Add","Block")" method="post">
     <table >
         <input type="hidden" id="ComplexId" name="ComplexId" value="@Model.Id">
         <tr>
@@ -17,6 +19,6 @@
         </tr>
         <tr>
             <td colspan="2"><button class="bg-dark text-light" type="submit" form="qwe" value="ثبت بلوک">ثبت بلوک</button></td>
-        </tr>
+    </tr>
     </table>
 </form>
